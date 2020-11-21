@@ -34,8 +34,7 @@ module.exports = {
       }
       return false
     } catch (error) {
-      console.log('error')
-      console.error(error)
+      console.log('error');
       return {
         success: false,
         message: error.message
@@ -67,7 +66,6 @@ module.exports = {
       }
     } catch (error) {
       console.log('catch.error');
-      console.error(error);
       return {
         success: false,
         message: error.message
@@ -119,7 +117,6 @@ module.exports = {
       };
     } catch (error) {
       console.log('catch.error');
-      console.error(error);
       return {
         message: 'No cabs available!'
       };
